@@ -1,0 +1,100 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta http-equiv="X-UA-Compatible" content="IE=edge">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/bootstrap-icons@1.11.2/font/bootstrap-icons.min.css">
+  <link rel="stylesheet" href="css/all.min.css">
+  <link rel="stylesheet" href="css/master.css">
+  <link rel="preconnect" href="https://fonts.googleapis.com">
+  <link href='https://unpkg.com/boxicons@2.1.4/css/boxicons.min.css' rel='stylesheet'>
+  <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+  <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@100;200;300;400;500;600;700;800;900&display=swap" rel="stylesheet">
+  <title>Nagi</title>
+</head>
+<body>
+  <style> 
+    body {
+      display: flex;
+      align-items: center;
+      height: 100vh;
+    }
+    .header,
+    .sideBar {
+      display: none;
+    }
+  </style>
+  <div class="header">
+
+  </div>
+  <div class="validation">
+    <div class="form">
+      <div class="contaienr">
+        <div class="contact">
+          <div class="border-tops"></div>
+          <div class="top">
+            <div class="text">
+              <h2>Sign Up Now</h2>
+              <p>use this form to create your account.</p>
+            </div>
+            <div class="set-user-image">
+              <img src="img/aulter.png" alt="">
+              <div class="holder">
+                <input class="user-image-input" type="file">
+                <i class="bi bi-pencil-square"></i>
+              </div>
+            </div>
+          </div>
+  
+          <form action="">
+            <div class="btnsss">
+
+                <div class="field name-field">
+                  <div class="input-field">
+                    <i class="fa-regular fa-user first"></i>
+                    <input type="text" placeholder="Enter your name" class="name"/>
+                  </div>
+                  <span style="margin-top:15px ;" class="error name-error">
+                    <p class="error-text">Enter atleast 4 charatcer</p>
+                  </span>
+                </div>
+              <div class="field create-password">
+                <div class="input-field">
+                  <i class='bx bx-lock-alt first'></i>
+                  <input type="password" placeholder="Create password" class="password"/>
+                  <i class="fa-regular fa-eye-slash show-hide"></i>
+                </div>
+                <span style="margin-top:15px ;" class="error password-error">
+                  <i class="bx bx-error-circle error-icon"></i>
+                  <p class="error-text">Please enter atleast 8 charatcer with number, small and capital letter.
+                  </p>
+                </span>
+              </div>
+              <div class="field confirm-password">
+                <div class="input-field">
+                  <i class='bx bx-lock-alt first'></i>
+                  <input type="password" placeholder="Confirm password" class="cPassword"/>
+                  <i class="fa-regular fa-eye-slash show-hide"></i>
+                </div>
+                <span style="margin-top:15px ;" class="error cPassword-error">
+                  <i class="bx bx-error-circle error-icon"></i>
+                  <p class="error-text">Password don't match</p>
+                </span>
+              </div>
+            </div>
+            <div class="btns">
+              <button class="submit-button main-btn">Create Acount</button>
+              <a href="login.html" class="main-btn">Sign In Now</a>
+            </div>
+          </form>
+        </div>
+      </div>
+  
+    </div>
+  </div>
+
+<script src="JS/register.js"></script>
+<script src="JS/master.js"></script>
+</body>
+</html>

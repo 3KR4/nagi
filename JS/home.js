@@ -27,7 +27,7 @@ function rednderfilterBtn() {
   
   for (friend of friendss) {
     let friendssss = `
-    <div onclick="openChat(${friend.id})" class="friend">
+    <a href="chat.html?userid=${friend.id}"  class="friend">
     <div class="holder">
       <img src="${friend.img}" alt="">
         <div>
@@ -39,14 +39,9 @@ function rednderfilterBtn() {
         <h6>${friend.time} PM</h6>
         <span>${friend.message}</span>
       </div>
-    </div>
+    </a>
     `
     friendsHolder.innerHTML += friendssss
   }
   }
 rednderfilterBtn();
-
-
-function openChat (id) {
-  window.location = `chat.html?userid=${id}`
-}

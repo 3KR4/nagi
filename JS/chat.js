@@ -12,6 +12,7 @@ singleChatPage = () => {
   return (pageHolder.innerHTML = `
     <div class="topBar">
       <div class="user">
+        <a href="index.html"><i class="fa-solid fa-angle-left"></i></a>
         <img src="${user.img}" alt="">
         <div>
           <h5>${user.name}</h5>
